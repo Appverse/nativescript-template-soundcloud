@@ -1,0 +1,14 @@
+<GridLayout class="api-page" rows="auto, *">
+  <SearchBar #sb hint="Type a search term.. like rap" text="" (submit)="searchTrack(sb.text)" row="0" dismissSoftInput></SearchBar>
+  <ListView [items]="tracks" *ngIf="tracks" row="1">
+    <template let-track="item">
+      <StackLayout orientation="horizontal" class="track">
+        <StackLayout width="80%">
+           <Label [text]="track.genre" class="track track-genre" *ngIf="track.genre"></Label>
+           <Label [text]="track.title" class="track-title" textWrap="true"></Label>
+        </StackLayout>
+        <Image width="20%" class="track-image" [src]="track.artwork_url"></Image>
+      </StackLayout>
+    </template>
+  </ListView>
+</GridLayout>

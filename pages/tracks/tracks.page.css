@@ -1,0 +1,16 @@
+.track {
+  margin: 5;
+  padding: 5;
+}
+
+.track-genre {
+  border-color: #FF3300;
+  border-radius: 5;
+  border-width: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.track-title {
+  font-size: 16;
+}
