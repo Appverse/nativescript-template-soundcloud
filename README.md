@@ -23,7 +23,7 @@ node app/setup.js
 ### API setup
 - [Signup](https://soundcloud.com/signin) to the awesome Soundcloud Service
 - After registering, [create your app in the dashboard](http://soundcloud.com/you/apps) and you should now have a __Client Id__ available.
-- Edit `secrets.json` and replace placeholders with that _Client Id_.
+- Edit `app/secrets.json` and replace placeholders with that _Client Id_.
 - Run ```tns emulate ios``` and/or ```tns emulate android``` to make sure everything is in place and working
 - Start hacking!
 
