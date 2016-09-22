@@ -11,11 +11,15 @@ Once you go through the [quick setup](http://docs.nativescript.org/angular/start
 
 ### Scaffolding
 
-Launch the app generator, pointing to this template and then launch the setup script (it will just move some files around)
+First launch the app generator, pointing to this template
 ```
-tns create my-soundcloud-app --template https://github.com/Appverse/nativescript-template-soundcloud && cd my-soundcloud-app && node app/setup.js
+tns create my-soundcloud-app --template https://github.com/Appverse/nativescript-template-clarifai
 ```
-
+And then Launch the setup script (it will just move some files around)
+```
+cd my-soundcloud-app
+node app/setup.js
+```
 ### API setup
 - [Signup](https://soundcloud.com/signin) to the awesome Soundcloud Service
 - After registering, [create your app in the dashboard](http://soundcloud.com/you/apps) and you should now have a __Client Id__ available.
