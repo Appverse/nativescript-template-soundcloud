@@ -13,7 +13,7 @@ Once you go through the [quick setup](http://docs.nativescript.org/angular/start
 
 First launch the app generator, pointing to this template
 ```
-tns create my-soundcloud-app --template https://github.com/Appverse/nativescript-template-clarifai
+tns create my-soundcloud-app --template https://github.com/Appverse/nativescript-template-soundcloud
 ```
 And then Launch the setup script (it will just move some files around)
 ```
